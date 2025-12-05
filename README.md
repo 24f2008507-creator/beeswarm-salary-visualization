@@ -3,38 +3,35 @@
 **Analyst Email:** 24f2008507@ds.study.iitm.ac.in
 
 ## Overview
-This repository contains a professional **Beeswarm Plot** created using **RAWGraphs** to analyze employee salary distribution across different departments and experience levels. 
+This repository contains a professional **Beeswarm Plot** created using **RAWGraphs** to analyze employee salary distribution across different departments and experience levels.
 
-The visualization is designed for executive reporting, supporting compensation analysis, pay-equity assessment, and workforce planning.
+This visualization is designed for executive-level decision-making and supports compensation benchmarking, pay-equity analysis, and workforce planning.
 
 ## Business Context
-Schulist Flatley, a strategic data-visualization consulting firm, required a detailed visualization that reveals salary variations across departments and highlights distribution patterns that traditional bar or pie charts cannot communicate effectively.
+A major client engaged Schulist Flatley to create a visualization that goes beyond simple bar or pie charts.  
+A **Beeswarm Plot** was selected because it:
 
-A Beeswarm Plot was chosen because it:
-- Displays individual data points clearly
-- Shows density and spread of salaries
-- Preserves categorical grouping
-- Supports compensation insights for leadership teams
+- Shows individual salary points clearly  
+- Reveals clustering and spread within each department  
+- Highlights compensation gaps across experience levels  
+- Communicates insights visually for non-technical leadership teams  
 
 ## Data Description
-The dataset includes the following fields:
+The dataset consists of manually generated, realistic business data with the following columns:
 
-- **department** – Categorical variable representing business unit  
-- **level** – Employee experience level (e.g., Junior, Mid, Senior)  
+- **department** – Business unit  
+- **level** – Employee seniority level  
 - **salary** – Annual salary in USD  
 
-The data was manually generated (15–20 rows) to simulate realistic compensation distributions suitable for visualization.
+A total of 15–20 records were used to simulate realistic corporate salary distributions.
 
 ## Visualization Details
 - Chart Type: **Beeswarm Plot**
 - Tool Used: **RAWGraphs 2.0**
-- Image Format: PNG
-- Dimensions: **Within 300–512 pixels**
-- Output File: **chartv1.png**
+- Output File: **chart.png**
+- Format: PNG
+- Dimensions: **300–512 pixels** (required for validation)
 
-The Beeswarm Plot effectively communicates:
-- Salary clustering patterns  
-- Differences between departments  
-- Spread and density of compensation values  
+The Beeswarm Plot visualizes salary distribution in a way that makes density, clustering, and outliers easy to interpret.
 
 ## Repository Contents
